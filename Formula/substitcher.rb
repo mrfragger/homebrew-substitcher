@@ -1,12 +1,12 @@
 class Substitcher < Formula
   desc "Audiobook encoder and player with subtitle support"
   homepage "https://github.com/mrfragger/substitcher"
-  version "26.02.07j"
+  version "26.02.08"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/mrfragger/substitcher/releases/download/v26.02.07j/SubStitcher-macOS-arm64.dmg"
-      sha256 "bd51d9af0bdd00c562fa497eca6f4a91c8e8ab96bc14f7a80b1bf56c91bf65d1"
+      url "https://github.com/mrfragger/substitcher/releases/download/v26.02.08/SubStitcher-macOS-arm64.dmg"
+      sha256 "65a61355f20ee71d30fb2d6c1ccc571ef69ed332d936eb11e2bade4449525637"
     end
   end
   def install
