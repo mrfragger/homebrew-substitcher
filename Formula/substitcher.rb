@@ -7,7 +7,7 @@ class Substitcher < Formula
   on_macos do
     on_arm do
       url "https://github.com/mrfragger/substitcher/releases/download/v26.02.13/SubStitcher-macOS-arm64.zip"
-      sha256 "da3adb851b4336863b232ab2005669cb478e394623aa3ce62077204c14b19e64"
+      sha256 "51b15369a8db0ad70d51fc855314db26898f47b461b85a458fbf51d6954d6200"
     end
   end
   
