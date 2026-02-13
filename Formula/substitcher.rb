@@ -6,11 +6,14 @@ class Substitcher < Formula
   on_macos do
     on_arm do
       url "https://github.com/mrfragger/substitcher/releases/download/v26.02.13/SubStitcher-macOS-arm64.dmg"
-      sha256 "003f2ff49b67910d1a7116e1dad29956d288b27c7fc798d20fb62057dec4125e"
+      sha256 "b71819739a48651fa0f4c9d0403903b75edc364f3d7e99eca0c5081a7fe7cd54"
     end
   end
   def install
-    prefix.install "SubStitcher.app"
+    # DMG is already mounted, find the app
+    app = Dir["*.app"].first || Dir["**/*.app"].first
+    raise "Could not find .app bundle" unless app
+    prefix.install app
     bin.write_exec_script "#{prefix}/SubStitcher.app/Contents/MacOS/SubStitcher"
   end
   test do
