@@ -1,6 +1,6 @@
 cask "substitcher" do
   version "26.02.15"
-  sha256 "1abace9f5019a8c87e1ccc34ce52fcad53054292fba2ced9f01aca1dfd72811a"
+  sha256 "e83c57fea44424380ca42e25e316dc66065f09fc80e017dfd52e064ee085828a"
   
   url "https://github.com/mrfragger/substitcher/releases/download/v26.02.15/SubStitcher-macOS-arm64.dmg"
   name "SubStitcher"
