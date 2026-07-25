@@ -1,8 +1,8 @@
 cask "substitcher" do
-  version "26.07.25"
-  sha256 "0ed6ed2b59e43fc117690597f8721600ad4b82470b3ba5644b65aec9c121b833"
+  version "26.07.26"
+  sha256 "6ab7b606cb8a354113c459e1456ff9d2c98e52cd3e2e4f18e7c5c3e3e8f01fdb"
 
-  url "https://github.com/mrfragger/substitcher/releases/download/v26.07.25/SubStitcher-macOS-arm64.dmg"
+  url "https://github.com/mrfragger/substitcher/releases/download/v26.07.26/SubStitcher-macOS-arm64.dmg"
   name "SubStitcher"
   desc "Audiobook encoder and player with subtitle support"
   homepage "https://github.com/mrfragger/substitcher"
